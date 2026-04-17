@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinayak Dental & Medical Centre | Affordable Dental & Medical Care in Kapas Hera, New Delhi</title>
+  <meta name="description" content="Best dental clinic and medical centre in Kapas Hera, New Delhi. Affordable dental implants, root canal, braces, and multi-specialty medical services. Call 011 4104 9570." />
+  <meta name="keywords" content="dental clinic in Kapas Hera, affordable dentist in New Delhi, medical clinic near Kapas Hera, dental implants near me, root canal Kapas Hera, teeth whitening Delhi" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ===== CSS VARIABLES ===== */
+    :root {
+      --navy: #0B1E3D;
+      --navy-light: #152B52;
+      --teal: #0891B2;
+      --teal-light: #22D3EE;
+      --teal-pale: #CFFAFE;
+      --gold: #D97706;
+      --gold-light: #FCD34D;
+      --white: #FFFFFF;
+      --off-white: #F0F8FF;
+      --gray-50: #F8FAFC;
+      --gray-100: #F1F5F9;
+      --gray-200: #E2E8F0;
+      --gray-400: #94A3B8;
+      --gray-600: #475569;
+      --gray-800: #1E293B;
+      --text: #1E293B;
+      --text-light: #64748B;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 24px;
+      --radius-xl: 40px;
+      --shadow-sm: 0 2px 8px rgba(11,30,61,0.08);
+      --shadow-md: 0 8px 32px rgba(11,30,61,0.12);
+      --shadow-lg: 0 20px 60px rgba(11,30,61,0.18);
+      --transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
+    }
+
+    [data-theme="dark"] {
+      --navy: #0D1B2E;
+      --navy-light: #1A2D4A;
+      --white: #0F1E33;
+      --off-white: #0B1526;
+      --gray-50: #111E31;
+      --gray-100: #1A2D4A;
+      --gray-200: #243B55;
+      --gray-400: #64748B;
+      --gray-600: #94A3B8;
+      --gray-800: #CBD5E1;
+      --text: #E2E8F0;
+      --text-light: #94A3B8;
+    }
+
+    /* ===== RESET ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.65;
+      overflow-x: hidden;
+      transition: background 0.3s, color 0.3s;
+    }
+    a { text-decoration: none; color: inherit; }
+    img { max-width: 100%; display: block; }
+    ul { list-style: none; }
+
+    /* ===== TYPOGRAPHY ===== */
+    .display { font-family: 'Cormorant Garamond', serif; }
+
+    /* ===== LAYOUT ===== */
+    .container { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+    .section { padding: 80px 0; }
+    .section-sm { padding: 60px 0; }
+
+    /* ===== HEADER ===== */
+    #header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: rgba(11,30,61,0.95);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      transition: var(--transition);
+    }
+    .header-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      height: 68px; gap: 16px;
+    }
+    .logo {
+      display: flex; align-items: center; gap: 10px;
+      color: var(--white);
+    }
+    .logo-icon {
+      width: 40px; height: 40px;
+      background: linear-gradient(135deg, var(--teal), var(--teal-light));
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
+    .logo-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 17px; font-weight: 700;
+      color: #FFFFFF;
+      letter-spacing: 0.01em;
+    }
+    .logo-tagline { font-size: 10px; color: var(--teal-light); letter-spacing: 0.08em; text-transform: uppercase; }
+
+    .nav { display: flex; align-items: center; gap: 28px; }
+    .nav a {
+      font-size: 13.5px; font-weight: 500; color: rgba(255,255,255,0.75);
+      transition: var(--transition);
+    }
+    .nav a:hover { color: var(--teal-light); }
+
+    .header-ctas { display: flex; align-items: center; gap: 10px; }
+    .btn-call {
+      display: flex; align-items: center; gap: 6px;
+      background: var(--teal);
+      color: white; font-size: 13px; font-weight: 600;
+      padding: 8px 16px; border-radius: 8px;
+      transition: var(--transition);
+    }
+    .btn-call:hover { background: var(--teal-light); color: var(--navy); }
+    .btn-wa {
+      display: flex; align-items: center; gap: 6px;
+      background: #22C55E;
+      color: white; font-size: 13px; font-weight: 600;
+      padding: 8px 16px; border-radius: 8px;
+      transition: var(--transition);
+    }
+    .btn-wa:hover { background: #16A34A; }
+
+    .theme-toggle {
+      width: 36px; height: 36px; border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.15);
+      background: transparent; cursor: pointer;
+      color: rgba(255,255,255,0.7); font-size: 16px;
+      display: flex; align-items: center; justify-content: center;
+      transition: var(--transition);
+    }
+    .theme-toggle:hover { background: rgba(255,255,255,0.1); color: white; }
+
+    .hamburger {
+      display: none; flex-direction: column; gap: 5px;
+      cursor: pointer; padding: 4px;
+      background: transparent; border: none;
+    }
+    .hamburger span {
+      display: block; width: 22px; height: 2px;
+      background: rgba(255,255,255,0.8); border-radius: 2px;
+      transition: var(--transition);
+    }
+
+    /* ===== MOBILE NAV ===== */
+    .mobile-nav {
+      display: none; position: fixed; top: 68px; left: 0; right: 0;
+      background: var(--navy); z-index: 999;
+      padding: 20px 24px 24px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      flex-direction: column; gap: 4px;
+      animation: slideDown 0.25s ease;
+    }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a {
+      color: rgba(255,255,255,0.8); font-size: 15px; font-weight: 500;
+      padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .mobile-nav .mob-ctas { display: flex; gap: 10px; margin-top: 12px; }
+    .mobile-nav .mob-ctas a { flex: 1; text-align: center; justify-content: center; }
+
+    @keyframes slideDown { from { opacity:0; transform: translateY(-10px); } to { opacity:1; transform: translateY(0); } }
+
+    /* ===== HERO ===== */
+    #hero {
+      min-height: 100vh;
+      background: var(--navy);
+      position: relative; overflow: hidden;
+      display: flex; align-items: center;
+      padding-top: 68px;
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 60% 50%, rgba(8,145,178,0.18) 0%, transparent 70%),
+        radial-gradient(ellipse 50% 50% at 10% 80%, rgba(217,119,6,0.08) 0%, transparent 60%),
+        linear-gradient(135deg, #0B1E3D 0%, #0D2548 50%, #0A1A33 100%);
+    }
+    .hero-grid {
+      position: absolute; inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 48px 48px;
+    }
+    .hero-blob {
+      position: absolute;
+      width: 500px; height: 500px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(8,145,178,0.15) 0%, transparent 70%);
+      right: -100px; top: 50%;
+      transform: translateY(-50%);
+      animation: pulse 6s ease-in-out infinite;
+    }
+    @keyframes pulse { 0%,100%{transform:translateY(-50%) scale(1);} 50%{transform:translateY(-55%) scale(1.08);} }
+
+    .hero-content { position: relative; z-index: 2; display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; width: 100%; padding: 60px 0; }
+    .hero-left { }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(8,145,178,0.15); border: 1px solid rgba(8,145,178,0.3);
+      color: var(--teal-light); font-size: 12px; font-weight: 600;
+      padding: 6px 14px; border-radius: 100px; margin-bottom: 24px;
+      letter-spacing: 0.05em; text-transform: uppercase;
+      animation: fadeInUp 0.6s ease both;
+    }
+    .hero-badge span { width: 6px; height: 6px; border-radius: 50%; background: var(--teal-light); display: inline-block; animation: blink 2s infinite; }
+    @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0.3;} }
+
+    .hero-h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(38px, 5vw, 60px);
+      font-weight: 700; line-height: 1.1;
+      color: #FFFFFF; margin-bottom: 20px;
+      animation: fadeInUp 0.6s 0.1s ease both;
+    }
+    .hero-h1 em { font-style: italic; color: var(--teal-light); }
+    .hero-sub {
+      font-size: 16px; color: rgba(255,255,255,0.6); line-height: 1.7;
+      max-width: 440px; margin-bottom: 36px;
+      animation: fadeInUp 0.6s 0.2s ease both;
+    }
+    .hero-btns { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 44px; animation: fadeInUp 0.6s 0.3s ease both; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--teal); color: white;
+      font-size: 15px; font-weight: 600;
+      padding: 14px 28px; border-radius: 10px;
+      transition: var(--transition); border: none; cursor: pointer;
+    }
+    .btn-primary:hover { background: #0E7490; transform: translateY(-2px); box-shadow: 0 12px 32px rgba(8,145,178,0.35); }
+    .btn-whatsapp {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #22C55E; color: white;
+      font-size: 15px; font-weight: 600;
+      padding: 14px 28px; border-radius: 10px;
+      transition: var(--transition); border: none; cursor: pointer;
+    }
+    .btn-whatsapp:hover { background: #16A34A; transform: translateY(-2px); box-shadow: 0 12px 32px rgba(34,197,94,0.35); }
+    .btn-outline {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: transparent; color: rgba(255,255,255,0.8);
+      font-size: 15px; font-weight: 500;
+      padding: 13px 26px; border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.2);
+      transition: var(--transition); cursor: pointer;
+    }
+    .btn-outline:hover { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.35); }
+
+    .hero-badges { display: flex; gap: 16px; flex-wrap: wrap; animation: fadeInUp 0.6s 0.4s ease both; }
+    .trust-badge {
+      display: flex; align-items: center; gap: 8px;
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+      padding: 8px 14px; border-radius: 100px;
+      color: rgba(255,255,255,0.75); font-size: 12.5px; font-weight: 500;
+    }
+    .trust-badge svg { width: 14px; height: 14px; color: var(--teal-light); }
+
+    .hero-right { display: flex; flex-direction: column; gap: 16px; animation: fadeInRight 0.7s 0.3s ease both; }
+    .hero-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px; padding: 24px;
+      backdrop-filter: blur(8px);
+      transition: var(--transition);
+    }
+    .hero-card:hover { background: rgba(255,255,255,0.08); border-color: rgba(8,145,178,0.3); transform: translateX(-4px); }
+    .hero-card-head { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+    .hc-icon {
+      width: 44px; height: 44px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; flex-shrink: 0;
+    }
+    .hc-icon.dental { background: rgba(8,145,178,0.2); }
+    .hc-icon.medical { background: rgba(217,119,6,0.2); }
+    .hc-title { font-weight: 700; font-size: 16px; color: white; }
+    .hc-sub { font-size: 12px; color: rgba(255,255,255,0.5); }
+    .hc-items { display: flex; flex-wrap: wrap; gap: 6px; }
+    .hc-tag {
+      background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.65);
+      font-size: 11.5px; font-weight: 500; padding: 4px 10px; border-radius: 100px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .hero-info-cards { display: flex; gap: 12px; }
+    .info-card {
+      flex: 1; background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 14px; padding: 16px;
+      text-align: center;
+    }
+    .info-card-icon { font-size: 22px; margin-bottom: 6px; }
+    .info-card-val { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 700; color: var(--teal-light); }
+    .info-card-label { font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 2px; }
+
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeInRight { from { opacity: 0; transform: translateX(24px); } to { opacity: 1; transform: translateX(0); } }
+
+    /* ===== SECTION HEADERS ===== */
+    .sec-label {
+      display: inline-block;
+      font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--teal); margin-bottom: 12px;
+    }
+    .sec-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(30px, 4vw, 46px);
+      font-weight: 700; line-height: 1.15;
+      color: var(--text); margin-bottom: 16px;
+    }
+    .sec-desc { font-size: 16px; color: var(--text-light); max-width: 560px; line-height: 1.7; }
+    .sec-header { margin-bottom: 48px; }
+    .sec-header.center { text-align: center; }
+    .sec-header.center .sec-desc { margin: 0 auto; }
+    .highlight { color: var(--teal); }
+
+    /* ===== DIVIDER ===== */
+    .wave-divider { height: 60px; overflow: hidden; }
+    .wave-divider svg { display: block; width: 100%; height: 100%; }
+
+    /* ===== DENTAL SERVICES ===== */
+    #dental {
+      background: var(--off-white);
+      position: relative;
+    }
+    [data-theme="dark"] #dental { background: var(--gray-50); }
+
+    .dental-featured {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 32px; margin-bottom: 48px;
+      align-items: stretch;
+    }
+    .featured-implant {
+      background: linear-gradient(135deg, var(--navy) 0%, #153260 100%);
+      border-radius: var(--radius-lg); padding: 40px;
+      color: white; position: relative; overflow: hidden;
+      grid-row: span 1;
+    }
+    .featured-implant::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 80% 20%, rgba(8,145,178,0.25), transparent 60%);
+    }
+    .fi-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(8,145,178,0.2); border: 1px solid rgba(8,145,178,0.4);
+      color: var(--teal-light); font-size: 11px; font-weight: 700;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 20px;
+      letter-spacing: 0.06em; text-transform: uppercase; position: relative;
+    }
+    .fi-title { font-family: 'Cormorant Garamond', serif; font-size: 34px; font-weight: 700; line-height: 1.15; margin-bottom: 14px; position: relative; }
+    .fi-desc { font-size: 14px; color: rgba(255,255,255,0.65); line-height: 1.7; margin-bottom: 24px; position: relative; }
+    .fi-points { display: flex; flex-direction: column; gap: 8px; margin-bottom: 28px; position: relative; }
+    .fi-point { display: flex; align-items: center; gap: 10px; font-size: 13.5px; color: rgba(255,255,255,0.85); }
+    .fi-point-dot { width: 18px; height: 18px; border-radius: 50%; background: rgba(8,145,178,0.3); border: 1px solid var(--teal); display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 10px; color: var(--teal-light); }
+    .fi-cta {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--teal); color: white;
+      font-size: 14px; font-weight: 600;
+      padding: 12px 22px; border-radius: 8px;
+      transition: var(--transition); position: relative;
+    }
+    .fi-cta:hover { background: var(--teal-light); color: var(--navy); }
+    .fi-emoji { position: absolute; bottom: 32px; right: 32px; font-size: 80px; opacity: 0.1; }
+
+    .dental-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .dental-card {
+      background: var(--white); border: 1px solid var(--gray-200);
+      border-radius: var(--radius-md); padding: 22px;
+      transition: var(--transition); cursor: default;
+      display: flex; flex-direction: column; gap: 10px;
+    }
+    .dental-card:hover { border-color: var(--teal); box-shadow: var(--shadow-md); transform: translateY(-2px); }
+    .dc-icon {
+      width: 48px; height: 48px; border-radius: 12px;
+      background: var(--teal-pale); display: flex; align-items: center; justify-content: center;
+      font-size: 24px;
+    }
+    [data-theme="dark"] .dc-icon { background: rgba(8,145,178,0.15); }
+    .dc-name { font-weight: 700; font-size: 15px; color: var(--text); }
+    .dc-desc { font-size: 13px; color: var(--text-light); line-height: 1.55; }
+
+    .dental-services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 32px; }
+    .ds-card {
+      background: var(--white); border: 1px solid var(--gray-200);
+      border-radius: var(--radius-md); padding: 20px;
+      transition: var(--transition); text-align: center;
+    }
+    .ds-card:hover { border-color: var(--teal); transform: translateY(-3px); box-shadow: var(--shadow-sm); }
+    .ds-icon { font-size: 32px; margin-bottom: 8px; }
+    .ds-name { font-weight: 600; font-size: 14px; color: var(--text); }
+    .ds-desc { font-size: 12px; color: var(--text-light); margin-top: 4px; line-height: 1.5; }
+    [data-theme="dark"] .dental-card, [data-theme="dark"] .ds-card { background: var(--gray-100); border-color: var(--gray-200); }
+
+    /* ===== MEDICAL SERVICES ===== */
+    #medical { background: var(--white); }
+    [data-theme="dark"] #medical { background: var(--white); }
+
+    .med-categories { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .med-cat {
+      background: var(--gray-50); border: 1px solid var(--gray-200);
+      border-radius: var(--radius-lg); padding: 28px;
+      transition: var(--transition);
+    }
+    [data-theme="dark"] .med-cat { background: var(--gray-100); border-color: var(--gray-200); }
+    .med-cat:hover { border-color: var(--teal); box-shadow: var(--shadow-md); }
+    .med-cat-header { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+    .med-cat-icon {
+      width: 48px; height: 48px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px; flex-shrink: 0;
+    }
+    .mc-general { background: rgba(14,165,233,0.12); }
+    .mc-ent { background: rgba(168,85,247,0.12); }
+    .mc-women { background: rgba(236,72,153,0.12); }
+    .med-cat-title { font-weight: 700; font-size: 17px; color: var(--text); }
+    .med-cat-sub { font-size: 12px; color: var(--text-light); }
+    .med-items { display: flex; flex-direction: column; gap: 10px; }
+    .med-item { display: flex; align-items: flex-start; gap: 10px; }
+    .med-item-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--teal); margin-top: 7px; flex-shrink: 0; }
+    .med-item-info {}
+    .med-item-name { font-size: 14px; font-weight: 600; color: var(--text); }
+    .med-item-desc { font-size: 12px; color: var(--text-light); line-height: 1.4; }
+
+    /* ===== IMPLANT FEATURE ===== */
+    #implant-feature {
+      background: linear-gradient(135deg, #0B1E3D 0%, #0A2540 100%);
+      position: relative; overflow: hidden;
+    }
+    #implant-feature::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 30% 50%, rgba(8,145,178,0.2), transparent 60%);
+    }
+    .implant-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; position: relative; z-index: 1; }
+    .implant-left {}
+    .implant-label { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal-light); margin-bottom: 12px; }
+    .implant-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(32px, 4vw, 50px); font-weight: 700; color: white; line-height: 1.15; margin-bottom: 20px; }
+    .implant-desc { font-size: 15px; color: rgba(255,255,255,0.6); line-height: 1.75; margin-bottom: 32px; }
+    .implant-benefits { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 36px; }
+    .ib-card {
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px; padding: 18px;
+    }
+    .ib-icon { font-size: 24px; margin-bottom: 8px; }
+    .ib-title { font-weight: 600; font-size: 14px; color: white; margin-bottom: 4px; }
+    .ib-desc { font-size: 12px; color: rgba(255,255,255,0.5); line-height: 1.5; }
+    .implant-pricing {
+      background: rgba(8,145,178,0.12); border: 1px solid rgba(8,145,178,0.3);
+      border-radius: 14px; padding: 20px 24px;
+      display: flex; align-items: center; gap: 16px; margin-bottom: 28px;
+    }
+    .ip-label { font-size: 13px; color: rgba(255,255,255,0.6); }
+    .ip-price { font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 700; color: var(--teal-light); }
+    .ip-note { font-size: 11px; color: rgba(255,255,255,0.4); }
+    .implant-right { position: relative; }
+    .implant-visual {
+      background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: var(--radius-lg); padding: 36px;
+    }
+    .iv-title { font-weight: 700; font-size: 16px; color: white; margin-bottom: 20px; }
+    .iv-steps { display: flex; flex-direction: column; gap: 0; }
+    .iv-step { display: flex; gap: 16px; padding-bottom: 20px; position: relative; }
+    .iv-step:not(:last-child)::after { content: ''; position: absolute; left: 19px; top: 40px; bottom: 0; width: 2px; background: rgba(8,145,178,0.25); }
+    .iv-num { width: 40px; height: 40px; border-radius: 50%; background: rgba(8,145,178,0.2); border: 2px solid rgba(8,145,178,0.4); display: flex; align-items: center; justify-content: center; color: var(--teal-light); font-weight: 700; font-size: 14px; flex-shrink: 0; }
+    .iv-body {}
+    .iv-name { font-weight: 600; font-size: 14px; color: white; }
+    .iv-desc { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.5; margin-top: 2px; }
+    .iv-who { margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08); }
+    .iv-who-title { font-size: 13px; font-weight: 600; color: rgba(255,255,255,0.7); margin-bottom: 12px; }
+    .iv-who-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .iv-who-tag { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); color: rgba(255,255,255,0.65); font-size: 12px; padding: 5px 12px; border-radius: 100px; }
+
+    /* ===== WHY CHOOSE US ===== */
+    #why { background: var(--off-white); }
+    [data-theme="dark"] #why { background: var(--gray-50); }
+    .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .why-card {
+      background: var(--white); border: 1px solid var(--gray-200);
+      border-radius: var(--radius-lg); padding: 32px;
+      transition: var(--transition);
+      position: relative; overflow: hidden;
+    }
+    [data-theme="dark"] .why-card { background: var(--gray-100); border-color: var(--gray-200); }
+    .why-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0;
+      height: 3px; background: linear-gradient(90deg, var(--teal), var(--teal-light));
+      opacity: 0; transition: var(--transition);
+    }
+    .why-card:hover::before { opacity: 1; }
+    .why-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+    .why-icon { font-size: 36px; margin-bottom: 16px; }
+    .why-title { font-weight: 700; font-size: 18px; color: var(--text); margin-bottom: 8px; }
+    .why-desc { font-size: 14px; color: var(--text-light); line-height: 1.65; }
+    .why-stat { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--gray-200); font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 700; color: var(--teal); }
+    .why-stat-label { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 12px; color: var(--text-light); font-weight: 500; }
+
+    /* ===== TESTIMONIALS ===== */
+    #testimonials { background: var(--white); }
+    [data-theme="dark"] #testimonials { background: var(--white); }
+    .testi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .testi-card {
+      background: var(--gray-50); border: 1px solid var(--gray-200);
+      border-radius: var(--radius-lg); padding: 28px;
+      transition: var(--transition);
+    }
+    [data-theme="dark"] .testi-card { background: var(--gray-100); border-color: var(--gray-200); }
+    .testi-card:hover { border-color: var(--teal); box-shadow: var(--shadow-sm); }
+    .testi-stars { color: #F59E0B; font-size: 16px; margin-bottom: 14px; letter-spacing: 2px; }
+    .testi-text { font-size: 14.5px; color: var(--text-light); line-height: 1.7; margin-bottom: 20px; font-style: italic; }
+    .testi-author { display: flex; align-items: center; gap: 12px; }
+    .testi-avatar {
+      width: 40px; height: 40px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 15px; color: white; flex-shrink: 0;
+    }
+    .testi-name { font-weight: 700; font-size: 14px; color: var(--text); }
+    .testi-meta { font-size: 12px; color: var(--text-light); }
+    .testi-highlight {
+      grid-column: span 3;
+      background: linear-gradient(135deg, var(--navy), #153260);
+      color: white; border: none;
+    }
+    .testi-highlight .testi-text { color: rgba(255,255,255,0.75); font-size: 16px; }
+    .testi-highlight .testi-name { color: white; }
+    .testi-highlight .testi-meta { color: rgba(255,255,255,0.5); }
+
+    /* ===== ABOUT ===== */
+    #about { background: var(--off-white); }
+    [data-theme="dark"] #about { background: var(--gray-50); }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+    .about-left {}
+    .about-mission {
+      background: linear-gradient(135deg, var(--teal), #0369A1);
+      border-radius: var(--radius-lg); padding: 28px;
+      color: white; margin-top: 28px;
+    }
+    .am-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(255,255,255,0.6); margin-bottom: 8px; }
+    .am-text { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-style: italic; line-height: 1.5; color: white; }
+    .about-right {}
+    .about-values { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 24px; }
+    .av-card {
+      background: var(--white); border: 1px solid var(--gray-200);
+      border-radius: var(--radius-md); padding: 20px;
+      transition: var(--transition);
+    }
+    [data-theme="dark"] .av-card { background: var(--gray-100); border-color: var(--gray-200); }
+    .av-card:hover { border-color: var(--teal); }
+    .av-icon { font-size: 28px; margin-bottom: 8px; }
+    .av-title { font-weight: 700; font-size: 15px; color: var(--text); margin-bottom: 4px; }
+    .av-desc { font-size: 13px; color: var(--text-light); line-height: 1.5; }
+    .about-timing {
+      background: var(--white); border: 1px solid var(--gray-200);
+      border-radius: var(--radius-md); padding: 24px; margin-top: 24px;
+    }
+    [data-theme="dark"] .about-timing { background: var(--gray-100); border-color: var(--gray-200); }
+    .at-title { font-weight: 700; font-size: 15px; color: var(--text); margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+    .at-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--gray-100); font-size: 14px; }
+    .at-row:last-child { border-bottom: none; }
+    .at-day { color: var(--text-light); }
+    .at-time { font-weight: 600; color: var(--text); }
+    .at-badge { background: #DCFCE7; color: #16A34A; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 100px; }
+
+    /* ===== CONTACT ===== */
+    #contact { background: var(--navy); position: relative; overflow: hidden; }
+    #contact::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 80% 50%, rgba(8,145,178,0.15), transparent 60%);
+    }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; position: relative; z-index: 1; }
+    .contact-left {}
+    .contact-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(28px, 4vw, 44px); font-weight: 700; color: white; line-height: 1.2; margin-bottom: 14px; }
+    .contact-desc { font-size: 15px; color: rgba(255,255,255,0.55); line-height: 1.7; margin-bottom: 32px; }
+    .contact-methods { display: flex; flex-direction: column; gap: 14px; }
+    .cm-card {
+      display: flex; align-items: center; gap: 16px;
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px; padding: 18px 20px;
+      transition: var(--transition);
+    }
+    .cm-card:hover { background: rgba(255,255,255,0.08); border-color: rgba(8,145,178,0.4); }
+    .cm-icon { width: 44px; height: 44px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0; }
+    .cm-phone { background: rgba(8,145,178,0.2); }
+    .cm-wa { background: rgba(34,197,94,0.2); }
+    .cm-loc { background: rgba(239,68,68,0.2); }
+    .cm-time { background: rgba(217,119,6,0.2); }
+    .cm-info {}
+    .cm-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; color: rgba(255,255,255,0.4); margin-bottom: 3px; }
+    .cm-value { font-size: 15px; font-weight: 600; color: white; }
+    .cm-sub { font-size: 12px; color: rgba(255,255,255,0.45); margin-top: 1px; }
+    .contact-ctas { display: flex; gap: 12px; margin-top: 28px; }
+    .contact-right {}
+    .map-wrapper {
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-lg); overflow: hidden; height: 360px;
+    }
+    .map-wrapper iframe { width: 100%; height: 100%; border: none; }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: #060F1E; padding: 40px 0 24px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+    .footer-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+    .footer-copy { font-size: 13px; color: rgba(255,255,255,0.35); }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { font-size: 13px; color: rgba(255,255,255,0.4); transition: var(--transition); }
+    .footer-links a:hover { color: var(--teal-light); }
+
+    /* ===== FLOATING WHATSAPP ===== */
+    .float-wa {
+      position: fixed; bottom: 28px; right: 28px; z-index: 900;
+      width: 56px; height: 56px; border-radius: 50%;
+      background: #22C55E; color: white;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 26px; box-shadow: 0 8px 24px rgba(34,197,94,0.45);
+      transition: var(--transition);
+      animation: floatBounce 3s ease-in-out infinite;
+    }
+    .float-wa:hover { transform: scale(1.12); box-shadow: 0 12px 32px rgba(34,197,94,0.55); }
+    @keyframes floatBounce { 0%,100%{transform:translateY(0);} 50%{transform:translateY(-6px);} }
+    .float-wa-tooltip {
+      position: fixed; bottom: 38px; right: 92px; z-index: 900;
+      background: var(--navy); color: white;
+      font-size: 13px; font-weight: 500; padding: 8px 14px;
+      border-radius: 8px; white-space: nowrap;
+      pointer-events: none; opacity: 0;
+      transition: opacity 0.2s;
+      box-shadow: var(--shadow-md);
+    }
+    .float-wa-tooltip::after {
+      content: ''; position: absolute; right: -6px; top: 50%; transform: translateY(-50%);
+      border: 6px solid transparent; border-right: none;
+      border-left-color: var(--navy);
+    }
+    .float-wa:hover + .float-wa-tooltip { opacity: 1; }
+
+    /* ===== SCROLL REVEAL ===== */
+    .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.55s ease, transform 0.55s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      .hero-content { grid-template-columns: 1fr; gap: 40px; }
+      .hero-right { display: none; }
+      .dental-featured { grid-template-columns: 1fr; }
+      .dental-grid { grid-template-columns: 1fr; }
+      .dental-services-grid { grid-template-columns: repeat(2, 1fr); }
+      .med-categories { grid-template-columns: 1fr; }
+      .implant-grid { grid-template-columns: 1fr; gap: 40px; }
+      .why-grid { grid-template-columns: repeat(2, 1fr); }
+      .testi-grid { grid-template-columns: 1fr 1fr; }
+      .testi-highlight { grid-column: span 2; }
+      .about-grid { grid-template-columns: 1fr; gap: 40px; }
+      .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+    }
+
+    @media (max-width: 768px) {
+      .nav { display: none; }
+      .header-ctas .btn-call, .header-ctas .btn-wa { display: none; }
+      .hamburger { display: flex; }
+      .section { padding: 60px 0; }
+      .dental-services-grid { grid-template-columns: repeat(2, 1fr); }
+      .why-grid { grid-template-columns: 1fr; }
+      .testi-grid { grid-template-columns: 1fr; }
+      .testi-highlight { grid-column: span 1; }
+      .hero-btns { flex-direction: column; }
+      .hero-btns .btn-primary, .hero-btns .btn-whatsapp { width: 100%; justify-content: center; }
+      .contact-ctas { flex-direction: column; }
+      .contact-ctas a { width: 100%; justify-content: center; }
+      .implant-benefits { grid-template-columns: 1fr; }
+      .about-values { grid-template-columns: 1fr; }
+      .footer-inner { flex-direction: column; text-align: center; }
+    }
+
+    @media (max-width: 480px) {
+      .container { padding: 0 16px; }
+      .dental-services-grid { grid-template-columns: 1fr 1fr; }
+      .hero-badges { flex-direction: column; align-items: flex-start; }
+    }
+
+    /* ===== ICON SVGs inline ===== */
+    .icon { display: inline-block; vertical-align: middle; }
+  </style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header id="header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <div class="logo-icon">🦷</div>
+        <div class="logo-text">
+          <span class="logo-name">Vinayak Dental & Medical</span>
+          <span class="logo-tagline">Centre · Kapas Hera, New Delhi</span>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="#dental">Dental</a>
+        <a href="#medical">Medical</a>
+        <a href="#implant-feature">Implants</a>
+        <a href="#why">Why Us</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-ctas">
+        <a href="tel:01141049570" class="btn-call">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.17h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.67a16 16 0 0 0 6.29 6.29l.77-.77a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call Now
+        </a>
+        <a href="https://wa.me/911141049570" target="_blank" class="btn-wa">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+          WhatsApp
+        </a>
+        <button class="theme-toggle" id="themeBtn" title="Toggle dark mode">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#dental" onclick="closeMob()">🦷 Dental Services</a>
+  <a href="#medical" onclick="closeMob()">🏥 Medical Services</a>
+  <a href="#implant-feature" onclick="closeMob()">✨ Dental Implants</a>
+  <a href="#why" onclick="closeMob()">⭐ Why Choose Us</a>
+  <a href="#testimonials" onclick="closeMob()">💬 Reviews</a>
+  <a href="#about" onclick="closeMob()">ℹ️ About</a>
+  <a href="#contact" onclick="closeMob()">📍 Contact</a>
+  <div class="mob-ctas">
+    <a href="tel:01141049570" class="btn-call">📞 Call Now</a>
+    <a href="https://wa.me/911141049570" target="_blank" class="btn-wa">💬 WhatsApp</a>
+  </div>
+</div>
+
+<!-- ===== HERO ===== -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-blob"></div>
+
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-badge"><span></span> Kapas Hera's Trusted Healthcare Centre</div>
+        <h1 class="hero-h1">Affordable Dental &amp; Medical Care<br/><em>You Can Trust</em></h1>
+        <p class="hero-sub">Serving Kapas Hera with advanced dental treatments and essential medical services — all under one convenient roof in New Delhi.</p>
+        <div class="hero-btns">
+          <a href="tel:01141049570" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.17h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.67a16 16 0 0 0 6.29 6.29l.77-.77a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call Now: 011 4104 9570
+          </a>
+          <a href="https://wa.me/911141049570" target="_blank" class="btn-whatsapp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            Book on WhatsApp
+          </a>
+          <a href="#dental" class="btn-outline">Explore Services ↓</a>
+        </div>
+        <div class="hero-badges">
+          <div class="trust-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Experienced Care
+          </div>
+          <div class="trust-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+            Mon–Fri, 9 AM – 8:30 PM
+          </div>
+          <div class="trust-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            Modern Equipment
+          </div>
+          <div class="trust-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+            All Services Under One Roof
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-card">
+          <div class="hero-card-head">
+            <div class="hc-icon dental">🦷</div>
+            <div>
+              <div class="hc-title">Dental Specialties</div>
+              <div class="hc-sub">Primary Focus · Advanced Equipment</div>
+            </div>
+          </div>
+          <div class="hc-items">
+            <span class="hc-tag">Implants</span>
+            <span class="hc-tag">Root Canal</span>
+            <span class="hc-tag">Braces</span>
+            <span class="hc-tag">Whitening</span>
+            <span class="hc-tag">Veneers</span>
+            <span class="hc-tag">Pediatric</span>
+            <span class="hc-tag">Cleaning</span>
+            <span class="hc-tag">Crowns</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-head">
+            <div class="hc-icon medical">🏥</div>
+            <div>
+              <div class="hc-title">Medical Services</div>
+              <div class="hc-sub">General · ENT · Women & Child Care</div>
+            </div>
+          </div>
+          <div class="hc-items">
+            <span class="hc-tag">Blood Test</span>
+            <span class="hc-tag">X-Ray</span>
+            <span class="hc-tag">ENT</span>
+            <span class="hc-tag">Gynecology</span>
+            <span class="hc-tag">Vaccination</span>
+            <span class="hc-tag">Pregnancy Care</span>
+            <span class="hc-tag">Diagnostics</span>
+          </div>
+        </div>
+        <div class="hero-info-cards">
+          <div class="info-card">
+            <div class="info-card-icon">📍</div>
+            <div class="info-card-val">Kapas<br>Hera</div>
+            <div class="info-card-label">Conveniently Located</div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">⏰</div>
+            <div class="info-card-val">Mon–Fri</div>
+            <div class="info-card-label">9 AM – 8:30 PM</div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">💰</div>
+            <div class="info-card-val">Family</div>
+            <div class="info-card-label">Affordable Pricing</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DENTAL SERVICES ===== -->
+<section id="dental" class="section">
+  <div class="container">
+    <div class="sec-header reveal">
+      <span class="sec-label">🦷 Dental Services</span>
+      <h2 class="sec-title">Expert Dental Care<br/>for <span class="highlight">Every Smile</span></h2>
+      <p class="sec-desc">From routine check-ups to advanced restorative procedures, our dental specialists deliver gentle, effective, and affordable treatments for the whole family.</p>
+    </div>
+
+    <div class="dental-featured reveal">
+      <div class="featured-implant">
+        <div class="fi-badge">⭐ Featured Treatment</div>
+        <div class="fi-title">Dental Implants —<br/>Your Permanent Smile Solution</div>
+        <p class="fi-desc">Missing teeth? Dental implants look, feel, and function exactly like natural teeth. A one-time investment for a lifetime of confident smiles.</p>
+        <div class="fi-points">
+          <div class="fi-point"><span class="fi-point-dot">✓</span> Natural look and feel</div>
+          <div class="fi-point"><span class="fi-point-dot">✓</span> 20+ year lifespan with proper care</div>
+          <div class="fi-point"><span class="fi-point-dot">✓</span> No slipping or discomfort</div>
+          <div class="fi-point"><span class="fi-point-dot">✓</span> Protects jaw bone structure</div>
+          <div class="fi-point"><span class="fi-point-dot">✓</span> Affordable payment options</div>
+        </div>
+        <a href="tel:01141049570" class="fi-cta">Book Free Consultation →</a>
+        <div class="fi-emoji">🦷</div>
+      </div>
+
+      <div class="dental-grid">
+        <div class="dental-card reveal">
+          <div class="dc-icon">😬</div>
+          <div class="dc-name">Root Canal Treatment</div>
+          <div class="dc-desc">Save your natural tooth. Painless procedure with modern rotary techniques for fast recovery.</div>
+        </div>
+        <div class="dental-card reveal">
+          <div class="dc-icon">✨</div>
+          <div class="dc-name">Teeth Whitening</div>
+          <div class="dc-desc">Professional-grade whitening that brightens your smile by several shades in a single visit.</div>
+        </div>
+        <div class="dental-card reveal">
+          <div class="dc-icon">🧹</div>
+          <div class="dc-name">Teeth Cleaning</div>
+          <div class="dc-desc">Remove plaque and tartar build-up. Keep gums healthy with professional scaling and polishing.</div>
+        </div>
+        <div class="dental-card reveal">
+          <div class="dc-icon">😁</div>
+          <div class="dc-name">Braces / Invisalign</div>
+          <div class="dc-desc">Straighten crooked teeth with traditional braces or near-invisible Invisalign aligners for all ages.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dental-services-grid">
+      <div class="ds-card reveal">
+        <div class="ds-icon">💎</div>
+        <div class="ds-name">Veneers &amp; Crowns</div>
+        <div class="ds-desc">Restore chipped, stained, or damaged teeth with custom-made porcelain veneers and crowns.</div>
+      </div>
+      <div class="ds-card reveal">
+        <div class="ds-icon">🔬</div>
+        <div class="ds-name">Tooth Reshaping</div>
+        <div class="ds-desc">Quick, painless contouring to correct minor chips, uneven edges, and overlapping teeth.</div>
+      </div>
+      <div class="ds-card reveal">
+        <div class="ds-icon">👶</div>
+        <div class="ds-name">Pediatric Dentistry</div>
+        <div class="ds-desc">Child-friendly dental care in a comfortable environment. Building healthy habits from day one.</div>
+      </div>
+      <div class="ds-card reveal">
+        <div class="ds-icon">🔍</div>
+        <div class="ds-name">Dental Check-up</div>
+        <div class="ds-desc">Comprehensive oral examination with digital X-rays to detect and prevent dental problems early.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MEDICAL SERVICES ===== -->
+<section id="medical" class="section">
+  <div class="container">
+    <div class="sec-header reveal">
+      <span class="sec-label">🏥 Medical Services</span>
+      <h2 class="sec-title">Complete Medical Care<br/>for Your <span class="highlight">Entire Family</span></h2>
+      <p class="sec-desc">Beyond dental, we offer a wide range of essential medical services — from diagnostics to specialist consultations — all available at our Kapas Hera clinic.</p>
+    </div>
+
+    <div class="med-categories">
+      <div class="med-cat reveal">
+        <div class="med-cat-header">
+          <div class="med-cat-icon mc-general">🔬</div>
+          <div>
+            <div class="med-cat-title">General &amp; Diagnostics</div>
+            <div class="med-cat-sub">Accurate Tests · Fast Results</div>
+          </div>
+        </div>
+        <div class="med-items">
+          <div class="med-item">
+            <div class="med-item-dot"></div>
+            <div class="med-item-info">
+              <div class="med-item-name">Blood Test</div>
+              <div class="med-item-desc">Complete blood count, sugar, thyroid, and more</div>
+            </div>
+          </div>
+          <div class="med-item">
+            <div class="med-item-dot"></div>
+            <div class="med-item-info">
+              <div class="med-item-name">X-Ray</div>
+              <div class="med-item-desc">Digital X-ray for chest, limbs, and dental imaging</div>
+            </div>
+          </div>
+          <div class="med-item">
+            <div class="med-item-dot"></div>
+            <div class="med-item-info">
+              <div class="med-item-name">Lipid Profile</div>
+              <div class="med-item-desc">Cholesterol screening and cardiovascular risk assessment</div>
+            </div>
+          </div>
+          <div class="med-item">
+            <div class="med-item-dot"></div>
+            <div class="med-item-info">
+              <div class="med-item-name">Liver Function Test</div>
+              <div class="med-item-desc">Comprehensive liver health panel with detailed analysis</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="med-cat reveal">
+        <div class="med-cat-header">
+          <div class="med-cat-icon mc-ent">👂</div>
+          <div>
+            <div class="med-cat-title">ENT Services</div>
+            <div class="med-cat-sub">Ear · Nose · Throat Specialist</div>
+          </div>
+        </div>
+        <div class="med-items">
+          <div class="med-item">
+            <div class="med-item-dot"></div>
+            <div class="med-item-info">
+              <div class="med-item-name">Ear Wax Removal</div>
+              <div class="med-item-desc">Safe micro-suction and irrigation procedures</div>
+            </div>
+          </div>
+          <div class="med-item">
+            <div class="med-item-dot"></div>
+            <div class="med-item-info">
+              <div class="med-item-name">Nasal Endoscopy</div>
+              <div class="med-item-desc">Detailed examination of nasal passages and sinuses</div>
+            </div>
+          </div>
+          <div class="med-item">
+            <div class="med-item-dot"></div>
+            <div class="med-item-info">
+              <div class="med-item-name">Sinusitis Treatment</div>
+              <div class="med-item-desc">Relief from chronic sinus pain, congestion, and infections</div>
+            </div>
+          </div>
+          <div class="med-item">
+            <div class="med-item-dot"></div>
+            <div class="med-item-info">
+              <div class="med-item-name">Snoring Treatment</div>
+              <div class="med-item-desc">Diagnosis and management of snoring and sleep apnea</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="med-cat reveal">
+        <div class="med-cat-header">
+          <div class="med-cat-icon mc-women">👩</div>
+          <div>
+            <div class="med-cat-title">Women &amp; Child Care</div>
+            <div class="med-cat-sub">Compassionate Family Healthcare</div>
+          </div>
+        </div>
+        <div class="med-items">
+          <div class="med-item">
+            <div class="med-item-dot"></div>
+            <div class="med-item-info">
+              <div class="med-item-name">Gynecology Treatments</div>
+              <div class="med-item-desc">Routine check-ups and specialist gynecological care</div>
+            </div>
+          </div>
+          <div class="med-item">
+            <div class="med-item-dot"></div>
+            <div class="med-item-info">
+              <div class="med-item-name">Pregnancy Care</div>
+              <div class="med-item-desc">Antenatal check-ups, scans, and prenatal guidance</div>
+            </div>
+          </div>
+          <div class="med-item">
+            <div class="med-item-dot"></div>
+            <div class="med-item-info">
+              <div class="med-item-name">Child Vaccination</div>
+              <div class="med-item-desc">Complete immunisation schedule as per government guidelines</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top:40px;" class="reveal">
+      <a href="tel:01141049570" class="btn-primary" style="display:inline-flex;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.17h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.67a16 16 0 0 0 6.29 6.29l.77-.77a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Enquire About Any Service
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== IMPLANT FEATURE ===== -->
+<section id="implant-feature" class="section">
+  <div class="container">
+    <div class="implant-grid">
+      <div class="implant-left reveal">
+        <div class="implant-label">Featured Treatment</div>
+        <h2 class="implant-title">Dental Implants —<br/>Smile Confidently Again</h2>
+        <p class="implant-desc">Dental implants are the gold standard for replacing missing teeth. Unlike dentures, they're fixed permanently, feel completely natural, and protect your jawbone. At Vinayak Dental, we offer high-quality implants at prices that work for Delhi families.</p>
+
+        <div class="implant-benefits">
+          <div class="ib-card">
+            <div class="ib-icon">🦴</div>
+            <div class="ib-title">Preserves Jawbone</div>
+            <div class="ib-desc">Prevents bone loss that naturally follows tooth extraction</div>
+          </div>
+          <div class="ib-card">
+            <div class="ib-icon">🌿</div>
+            <div class="ib-title">Looks Natural</div>
+            <div class="ib-desc">Custom-matched to your existing teeth — no one can tell</div>
+          </div>
+          <div class="ib-card">
+            <div class="ib-icon">💪</div>
+            <div class="ib-title">Eat Anything</div>
+            <div class="ib-desc">Enjoy all your favourite foods without restrictions</div>
+          </div>
+          <div class="ib-card">
+            <div class="ib-icon">⏳</div>
+            <div class="ib-title">Long Lasting</div>
+            <div class="ib-desc">With proper care, implants can last a lifetime</div>
+          </div>
+        </div>
+
+        <div class="implant-pricing">
+          <div>
+            <div class="ip-label">Consultation</div>
+            <div class="ip-price">Free Assessment</div>
+            <div class="ip-note">Affordable, transparent pricing — no hidden charges</div>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="tel:01141049570" class="btn-primary">📞 Book Consultation</a>
+          <a href="https://wa.me/911141049570" target="_blank" class="btn-whatsapp">💬 WhatsApp Us</a>
+        </div>
+      </div>
+
+      <div class="implant-right reveal">
+        <div class="implant-visual">
+          <div class="iv-title">Your Implant Journey — Step by Step</div>
+          <div class="iv-steps">
+            <div class="iv-step">
+              <div class="iv-num">1</div>
+              <div class="iv-body">
+                <div class="iv-name">Free Consultation</div>
+                <div class="iv-desc">We assess your teeth, take X-rays, and explain the full process and cost with no obligation.</div>
+              </div>
+            </div>
+            <div class="iv-step">
+              <div class="iv-num">2</div>
+              <div class="iv-body">
+                <div class="iv-name">Implant Placement</div>
+                <div class="iv-desc">A titanium post is gently placed in your jawbone under local anaesthesia — most patients feel very little discomfort.</div>
+              </div>
+            </div>
+            <div class="iv-step">
+              <div class="iv-num">3</div>
+              <div class="iv-body">
+                <div class="iv-name">Healing Period</div>
+                <div class="iv-desc">The implant integrates with your bone over a few weeks. We'll monitor your progress carefully.</div>
+              </div>
+            </div>
+            <div class="iv-step">
+              <div class="iv-num">4</div>
+              <div class="iv-body">
+                <div class="iv-name">Crown Fitting</div>
+                <div class="iv-desc">Your custom crown is fixed on top — perfectly colour-matched and shaped to complete your smile.</div>
+              </div>
+            </div>
+          </div>
+          <div class="iv-who">
+            <div class="iv-who-title">WHO NEEDS DENTAL IMPLANTS?</div>
+            <div class="iv-who-tags">
+              <span class="iv-who-tag">Missing one or more teeth</span>
+              <span class="iv-who-tag">Broken or decayed tooth</span>
+              <span class="iv-who-tag">Uncomfortable dentures</span>
+              <span class="iv-who-tag">Gaps affecting confidence</span>
+              <span class="iv-who-tag">Long-term solution seeker</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY CHOOSE US ===== -->
+<section id="why" class="section">
+  <div class="container">
+    <div class="sec-header center reveal">
+      <span class="sec-label">Why Choose Us</span>
+      <h2 class="sec-title">Healthcare That Puts<br/><span class="highlight">You First</span></h2>
+      <p class="sec-desc">We combine medical expertise with genuine care — making quality healthcare accessible to every family in Kapas Hera and surrounding areas.</p>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card reveal">
+        <div class="why-icon">🏥</div>
+        <div class="why-title">One Clinic, Complete Care</div>
+        <div class="why-desc">From dental implants to blood tests and ENT — your entire family gets all the care they need without travelling to multiple locations.</div>
+        <div class="why-stat">8+<div class="why-stat-label">Specialties Under One Roof</div></div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">💰</div>
+        <div class="why-title">Truly Affordable Pricing</div>
+        <div class="why-desc">We believe good healthcare shouldn't cost a fortune. Our transparent pricing has no hidden fees — just honest, affordable treatment.</div>
+        <div class="why-stat">₹0<div class="why-stat-label">Consultation Charge on Implants</div></div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">📍</div>
+        <div class="why-title">Conveniently Located</div>
+        <div class="why-desc">Right in the heart of Kapas Hera Extension, near Veer Public School — easy to reach by auto, bus, or on foot from most of Kapas Hera.</div>
+        <div class="why-stat">5 min<div class="why-stat-label">From Central Kapas Hera</div></div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">⚙️</div>
+        <div class="why-title">Modern Equipment</div>
+        <div class="why-desc">We invest in up-to-date dental and medical equipment — digital X-rays, rotary root canal systems, and sterile environments for every procedure.</div>
+        <div class="why-stat">100%<div class="why-stat-label">Sterilised Instruments</div></div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">😊</div>
+        <div class="why-title">Friendly, Patient-First Care</div>
+        <div class="why-desc">No rush, no judgment — our team takes the time to understand your concerns and explain everything clearly before any procedure begins.</div>
+        <div class="why-stat">4.8★<div class="why-stat-label">Average Patient Rating</div></div>
+      </div>
+      <div class="why-card reveal">
+        <div class="why-icon">👨‍👩‍👧‍👦</div>
+        <div class="why-title">For the Whole Family</div>
+        <div class="why-desc">Children, adults, and seniors all welcome. We offer dedicated pediatric dentistry and senior-friendly services in a calm, welcoming setting.</div>
+        <div class="why-stat">All<div class="why-stat-label">Ages Served — From 1 Year+</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section id="testimonials" class="section">
+  <div class="container">
+    <div class="sec-header center reveal">
+      <span class="sec-label">Patient Reviews</span>
+      <h2 class="sec-title">Trusted by Families<br/>Across <span class="highlight">Kapas Hera</span></h2>
+    </div>
+
+    <div class="testi-grid">
+      <div class="testi-highlight testi-card reveal" style="grid-column:1/-1; padding:36px;">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"I was terrified of the dentist after a bad experience years ago — but Dr. Vinayak's team completely changed that for me. My root canal was painless, they explained everything step by step, and the pricing was so much more reasonable than other clinics I had visited in Delhi. I've now brought my whole family here. Highly recommend to everyone in Kapas Hera."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#0891B2,#0369A1)">R</div>
+          <div>
+            <div class="testi-name">Rekha Sharma</div>
+            <div class="testi-meta" style="color:rgba(255,255,255,0.4)">Kapas Hera Extension · Root Canal Treatment</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Got dental implants done here and I honestly can't tell the difference from my original teeth. The consultation was free, the team was very honest about costs upfront, and the result is amazing. Worth every rupee."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#D97706,#B45309)">A</div>
+          <div>
+            <div class="testi-name">Amit Verma</div>
+            <div class="testi-meta">Dwarka Sector 23 · Dental Implant</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Very clean clinic, well maintained. My daughter needed her first dental check-up and she wasn't scared at all — the staff was so gentle and patient with her. We also got her vaccinations done the same day. Very convenient!"</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#EC4899,#BE185D)">P</div>
+          <div>
+            <div class="testi-name">Priya Nair</div>
+            <div class="testi-meta">Kapas Hera · Pediatric Dentistry + Vaccination</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Blood tests, X-ray, and ENT checkup all done in one visit. Saved me so much time. The staff were friendly, reports came quickly, and pricing was very fair. This is exactly what local clinics should be like."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#7C3AED,#5B21B6)">S</div>
+          <div>
+            <div class="testi-name">Suresh Yadav</div>
+            <div class="testi-meta">Old Delhi Gurugram Road · Diagnostics + ENT</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★☆</div>
+        <p class="testi-text">"Came for teeth whitening and was really happy with the results. The doctor took time to explain what to expect and the aftercare advice was very helpful. Location is great — right near the main road."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#059669,#047857)">N</div>
+          <div>
+            <div class="testi-name">Nisha Gupta</div>
+            <div class="testi-meta">Kapas Hera · Teeth Whitening</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-left reveal">
+        <span class="sec-label">About Us</span>
+        <h2 class="sec-title">Healthcare Rooted in<br/><span class="highlight">Community Trust</span></h2>
+        <p style="font-size:15px; color:var(--text-light); line-height:1.8; margin-top:16px;">Vinayak Dental &amp; Medical Centre was founded with a simple belief: every family in Kapas Hera deserves access to quality healthcare without financial stress or long travel.</p>
+        <p style="font-size:15px; color:var(--text-light); line-height:1.8; margin-top:12px;">We started as a dental practice and grew into a full multi-specialty clinic — driven by the needs of our patients and community. Today, we serve hundreds of families from Kapas Hera, Dwarka, and the surrounding areas of New Delhi.</p>
+        <p style="font-size:15px; color:var(--text-light); line-height:1.8; margin-top:12px;">Our team of experienced doctors is committed to providing honest advice, gentle care, and treatments that genuinely improve your health and confidence.</p>
+        <div class="about-mission">
+          <div class="am-label">Our Mission</div>
+          <div class="am-text">"Providing affordable and accessible healthcare to every family — with honesty, skill, and genuine compassion."</div>
+        </div>
+      </div>
+
+      <div class="about-right reveal">
+        <div class="about-timing">
+          <div class="at-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+            Clinic Timings
+          </div>
+          <div class="at-row">
+            <span class="at-day">Monday – Friday</span>
+            <span class="at-time">9:00 AM – 8:30 PM <span class="at-badge">Open</span></span>
+          </div>
+          <div class="at-row">
+            <span class="at-day">Saturday</span>
+            <span class="at-time" style="color:var(--text-light);">By Appointment</span>
+          </div>
+          <div class="at-row">
+            <span class="at-day">Sunday</span>
+            <span class="at-time" style="color:var(--text-light);">Closed</span>
+          </div>
+        </div>
+
+        <div class="about-values">
+          <div class="av-card">
+            <div class="av-icon">🩺</div>
+            <div class="av-title">Experienced Team</div>
+            <div class="av-desc">Qualified doctors with years of clinical experience in their specialties.</div>
+          </div>
+          <div class="av-card">
+            <div class="av-icon">💊</div>
+            <div class="av-title">Evidence-Based</div>
+            <div class="av-desc">All treatments follow up-to-date clinical guidelines and best practices.</div>
+          </div>
+          <div class="av-card">
+            <div class="av-icon">🤝</div>
+            <div class="av-title">Patient Respect</div>
+            <div class="av-desc">We listen, explain, and never rush. Your comfort matters at every step.</div>
+          </div>
+          <div class="av-card">
+            <div class="av-icon">🏆</div>
+            <div class="av-title">Community Focus</div>
+            <div class="av-desc">Serving Kapas Hera families with care that's genuinely local and invested.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-left reveal">
+        <span style="font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:var(--teal-light);">Get In Touch</span>
+        <div class="contact-title">Ready to Book Your<br/>Appointment?</div>
+        <p class="contact-desc">Call us, send a WhatsApp message, or visit us directly. Our team is ready to assist Monday to Friday, 9 AM to 8:30 PM.</p>
+
+        <div class="contact-methods">
+          <a href="tel:01141049570" class="cm-card">
+            <div class="cm-icon cm-phone">📞</div>
+            <div class="cm-info">
+              <div class="cm-label">Phone</div>
+              <div class="cm-value">011 4104 9570</div>
+              <div class="cm-sub">Call us directly — we'll answer your questions</div>
+            </div>
+          </a>
+          <a href="https://wa.me/911141049570" target="_blank" class="cm-card">
+            <div class="cm-icon cm-wa">💬</div>
+            <div class="cm-info">
+              <div class="cm-label">WhatsApp</div>
+              <div class="cm-value">Book on WhatsApp</div>
+              <div class="cm-sub">Send a message anytime — quick responses</div>
+            </div>
+          </a>
+          <div class="cm-card">
+            <div class="cm-icon cm-loc">📍</div>
+            <div class="cm-info">
+              <div class="cm-label">Address</div>
+              <div class="cm-value">Shankar Market, Kapas Hera</div>
+              <div class="cm-sub">Old Delhi Gurugram Rd, near Veer Public School, New Delhi 110097</div>
+            </div>
+          </div>
+          <div class="cm-card">
+            <div class="cm-icon cm-time">⏰</div>
+            <div class="cm-info">
+              <div class="cm-label">Timings</div>
+              <div class="cm-value">Mon – Fri: 9:00 AM – 8:30 PM</div>
+              <div class="cm-sub">Walk-ins welcome during clinic hours</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-ctas">
+          <a href="tel:01141049570" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.17h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.67a16 16 0 0 0 6.29 6.29l.77-.77a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call Now
+          </a>
+          <a href="https://wa.me/911141049570" target="_blank" class="btn-whatsapp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            WhatsApp Us
+          </a>
+          <a href="https://maps.app.goo.gl/LNo86Tj2WtZtbZcy8" target="_blank" class="btn-outline">
+            📍 Get Directions
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-right reveal">
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.174!2d77.0600!3d28.5200!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zVmluYXlhayBEZW50YWwgJiBNZWRpY2FsIENlbnRyZQ!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Vinayak Dental & Medical Centre Location">
+          </iframe>
+        </div>
+        <div style="margin-top:16px; display:flex; gap:12px;">
+          <a href="https://maps.app.goo.gl/LNo86Tj2WtZtbZcy8" target="_blank" style="flex:1; display:flex; align-items:center; justify-content:center; gap:8px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); color:rgba(255,255,255,0.75); font-size:13.5px; font-weight:500; padding:12px 16px; border-radius:10px; transition:var(--transition);" onmouseover="this.style.background='rgba(255,255,255,0.1)'" onmouseout="this.style.background='rgba(255,255,255,0.06)'">
+            📌 Open in Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-copy">
+        © 2025 Vinayak Dental &amp; Medical Centre · Kapas Hera, New Delhi 110097
+        <br style="display:none;"/>
+        <span style="margin-left:8px;">Dental clinic in Kapas Hera · Affordable dentist New Delhi</span>
+      </div>
+      <div class="footer-links">
+        <a href="#dental">Dental</a>
+        <a href="#medical">Medical</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:01141049570">011 4104 9570</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/911141049570" target="_blank" class="float-wa" title="Chat on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+</a>
+<div class="float-wa-tooltip">Book on WhatsApp</div>
+
+<script>
+  // ===== DARK MODE =====
+  const themeBtn = document.getElementById('themeBtn');
+  const body = document.body;
+  let dark = localStorage.getItem('theme') === 'dark';
+  if (dark) { body.setAttribute('data-theme','dark'); themeBtn.textContent = '☀️'; }
+
+  themeBtn.addEventListener('click', () => {
+    dark = !dark;
+    body.setAttribute('data-theme', dark ? 'dark' : '');
+    if (!dark) body.removeAttribute('data-theme');
+    themeBtn.textContent = dark ? '☀️' : '🌙';
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+  });
+
+  // ===== HAMBURGER MENU =====
+  const hamburger = document.getElementById('hamburger');
+  const mobileNav = document.getElementById('mobileNav');
+  hamburger.addEventListener('click', () => {
+    mobileNav.classList.toggle('open');
+  });
+  function closeMob() { mobileNav.classList.remove('open'); }
+
+  // ===== SCROLL REVEAL =====
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), 60 * (Array.from(reveals).indexOf(e.target) % 4));
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  reveals.forEach(r => observer.observe(r));
+
+  // ===== STICKY HEADER SHADOW =====
+  window.addEventListener('scroll', () => {
+    const h = document.getElementById('header');
+    if (window.scrollY > 20) {
+      h.style.boxShadow = '0 4px 24px rgba(0,0,0,0.25)';
+    } else {
+      h.style.boxShadow = 'none';
+    }
+  });
+
+  // Close mobile nav on outside click
+  document.addEventListener('click', (e) => {
+    if (!hamburger.contains(e.target) && !mobileNav.contains(e.target)) {
+      mobileNav.classList.remove('open');
+    }
+  });
+</script>
+</body>
+</html>
